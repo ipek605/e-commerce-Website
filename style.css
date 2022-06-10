@@ -554,7 +554,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .navTop{
+  .navTop {
     height: 60px;
   }
   .sliderPrice {
@@ -575,67 +575,67 @@ footer {
     width: 30%;
     top: 75%;
   }
-.product{
-height: 85vh;}
-  .productImg{
-  width: 45%;
-  margin-top: 30%;
+  .product {
+    height: 85vh;
   }
-  .productDetails{
+  .productImg {
+    width: 45%;
+    margin-top: 30%;
+  }
+  .productDetails {
     margin: auto 0;
   }
-  .productDesc{
+  .productDesc {
     margin: 30px 0;
   }
 
-  .colors{
+  .colors {
     margin: 40px 0;
   }
-  .productButton{
-    margin-right:40%;
+  .productButton {
+    margin-right: 40%;
     margin-top: 20px;
   }
 
-  .gallery{
-   display: none;
+  .gallery {
+    display: none;
   }
 
-  .nsTitle{
+  .nsTitle {
     display: flex;
     font-size: 30px;
   }
-.nsImg{
-  display: flex;
-  flex:1
-}
-
+  .nsImg {
+    display: flex;
+    flex: 1;
+  }
 
   footer {
     display: flex;
   }
-  
+
   .footerLeft {
     flex: 2;
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
   }
-  
+
   .fMenuTitle {
     font-size: 16px;
   }
-  
+
   .fList {
     padding: 0;
     list-style: none;
   }
-  
+
   .fListItem {
     margin-bottom: 10px;
     color: gray;
     cursor: pointer;
   }
-  
+
   .footerRight {
     flex: 1;
     padding: 50px;
@@ -645,7 +645,7 @@ height: 85vh;}
     align-items: center;
     text-align: center;
   }
-  
+
   .fInput {
     padding: 5px;
   }
@@ -654,7 +654,7 @@ height: 85vh;}
     background-color: black;
     color: white;
   }
-  
+
   .fIcons {
     display: flex;
   }
@@ -662,6 +662,46 @@ height: 85vh;}
     width: 20px;
     height: 20px;
     margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .sliderPrice{
+    left: 50px;
+    top: 10px;
+    margin: 0;
+  }
+
+  .sliderTitle{
+    right: 25px;
+  }
+
+  .buyButton{
+    right: 40px;
+  }
+
+  .productImg {
+    width: 45%;
+    margin-top: 30%;
+  }
+  .productDetails {
+    margin: auto 0;
+  }
+  .productDesc {
+    margin: 30px 0;
+  }
+
+  .colors {
+    margin: 40px 0;
+  }
+  .productButton {
+    margin-right: 40%;
+    margin-top: 20px;
+  }
+
+  .nsTitle{
+    font-size: 35px;
   }
 
 }
